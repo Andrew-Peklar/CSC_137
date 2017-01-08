@@ -34,9 +34,9 @@ module CoderMod(Q, C); //16 inputs and 4 outputs
    input  [0:19]Q;
    output [0:6]C;
 
-//						C
-//				hex     0 1 2 	3 4 5 6
-//              ||      | | | 	| | | | 
+//						   C
+//				   hex   0 1 2 	3 4 5 6
+//             ||    | | | 	| | | | 
 // Q[0]	P	=	50	=	1 0 1 	0 0 0 0 
 // Q[1]	e	=	65	=	1 1 0 	0 1 0 1
 // Q[2]	k	=	6b	=	1 1 0 	1 0 1 1 
